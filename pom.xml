@@ -46,13 +46,10 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-<<<<<<< HEAD
-=======
 		<dependency>
 	<groupId>org.postgresql</groupId>
 	<artifactId>postgresql</artifactId>
 </dependency> 
->>>>>>> 89cc5d6 (Atualizando para deploy)
 	</dependencies>
 
 	<build>
