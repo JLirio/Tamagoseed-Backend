@@ -8,11 +8,11 @@
 		<version>3.3.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.com.tamagoseed</groupId>
-	<artifactId>Tamagoseed</artifactId>
+	<groupId>br.com.renovatech</groupId>
+	<artifactId>RenovaTech</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Tamagoseed</name>
-	<description>Projeto E-Commerce Tamagoseed</description>
+	<name>RenovaTech</name>
+	<description>Projeto E-Commerce RenovaTech</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -46,10 +46,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-	<groupId>org.postgresql</groupId>
-	<artifactId>postgresql</artifactId>
-</dependency> 
 	</dependencies>
 
 	<build>
@@ -57,9 +53,6 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-                <mainClass>com.tamagoseed.TamagoseedApplication</mainClass> <!-- Adicione essa linha -->
-            </configuration>
 			</plugin>
 		</plugins>
 	</build>
